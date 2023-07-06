@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
-}
+.card {
+  /* Add shadows to create the "card" effect */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+    background-color: transparent;
+    width: 300px;
+    height: auto;
+    border: 1px solid #f1f1f1;
+    border-radius: 1rem;
+   padding: 10px 10px 0px 10px;
+   margin-top: 1rem;
+   margin-left: 1rem;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Procontainer{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+img{
+  display: block;
+  margin: auto;
+}
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* Add some padding inside the card container */
+.container {
+  padding: 10px 10px 10px 40px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
